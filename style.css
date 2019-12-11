@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html{
+	scroll-behavior: smooth; 
+	background-color: #FFFFFF;
+	font-family: 'Be Vietnam', sans-serif;
+	margin:0px 85px 30px 110px;
+	}
+
+h1 {text-align: center;
+margin: 30px;
+	outline-color: #FFA20C;
+	outline-style: solid;
+	padding: 7px;
+	font-size: 30px;
+}
+
+ h2 {
+	text-align: left;
+margin:15px;
+text-decoration: underline;}
+
+.dance {width:40%;
+float:right;}
+
+.logo 	{
+	width: 150px;
+	height: 77px;
+	float: right;
+}
+	
+nav, .home {
+	list-style-type: none;
+	 margin: 45px 0px 45px 0px; 
+ 	padding: 8px;
+  	overflow: hidden;
+  	background-color: #FFFFFF;
+  	box-shadow: 0px 13px 35px 0px rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 0px 0px 25px 25px;
+	font-size: 28px;
+	font-weight: bold;
+	}
+.menu {
+	list-style-type: none;
+	}
+.menu li {
+	float: left;
+	}
+
+li a, .dd, .home 	{
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+					}
+
+li a:hover, .dropdown:hover .dd, .home	 {
+  background-color: #FFA20C;
+  color: black;
+	border-radius: 0px 25px 0px 25px;
+		}
+
+li.dropdown {
+  display: inline-block;
+			}
+
+.dd-cont {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dd-cont a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dd-cont a:hover {background-color: #FBCC65;}
+
+.dropdown:hover .dd-cont {
+  display: block;
+}
+
+
+p {
+	text-align:justify;
+}
+.lady {
+	margin:0px 50px 70px 50px;
+	float: left;
+	 width: 42%;
+}
+
+.hpt {
+	text-align: justify;
+	margin: 60px 30px 70px 0px;
+font-size: 28px;
+}
+
+.lm {
+	background-color: rgb(231, 194, 27);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 28px;
+	margin: 4px 2px;
+	position: absolute;
+	left: 64%;
+	top: 80%;
+}
+
+.lm:hover {background-color: rgb(255, 130, 14); }
+
+
+table {
+	border-collapse: collapse;
+	width:100%;
+	margin: 0px 50px 0px 50px;
+	
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover{
+	  background-color: rgb(253, 228, 174)
+  }
+ th  {
+	background-color: rgb(235, 130, 11);
+	color: white;
+ }
+
+iframe {
+	padding: 10px;
+}
+
+.con p {padding-top: 20px;;
+text-align: center;
+font-size: 25px;}
+
+
+.mapouter {
+  margin: auto;
+  width: 60%;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.aboutheading {
+	margin-top: 300px;
+}
+
+.logo {
+	margin-left: 500px;
+}
